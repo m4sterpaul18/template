@@ -1,0 +1,28 @@
+:root{
+	--nav-color:#5ea6e2; 
+	--font-color:#88a7c1; /*lighter share of blue*/
+	--font-color2:#ffffff; /*white*/
+	--primary-color:#066dc5; /*darkblue*/
+}
+/*in general css*/
+html{
+	scroll-behavior: smooth;
+}
+@media screen and (max-width: 450px){
+	.footer-link a,h6{
+		font-size:3vw;
+	}
+	
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{
+	font-weight: 700;
+}
+.terms{
+	padding: 3rem;
+	margin: 2rem 0rem 10rem 0rem;
+}

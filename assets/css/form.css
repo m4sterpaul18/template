@@ -1,0 +1,68 @@
+:root{
+	--nav-color:#5ea6e2; 
+	--font-color:#88a7c1; /*lighter share of blue*/
+	--font-color2:#ffffff; /*white*/
+	--primary-color:#066dc5; /*darkblue*/
+}
+@media screen and (max-width: 450px){
+	.footer-link a,h6{
+		font-size:3vw;
+	}
+	
+}
+image{
+	object-fit: cover;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	min-height: 100%;
+	min-width: 100%;
+	background-color: var(--font-color2)
+}
+
+.form-page{
+	width: 100%;
+	border-radius: 10px;
+	padding: 4rem;
+	margin:3rem 0 10rem 0;
+	background-color: var(--primary-color);
+
+}
+
+.form{
+	border:2px solid var(--font-color2);
+	width: 100%;
+	color:var(--font-color2);
+	position: relative;
+	padding: 2rem;
+	border-radius: 10px;
+}
+
+.form a{
+	color:var(--nav-color);
+}
+
+.btn-nav{
+	margin:1rem;
+}
+
+.navbar{
+	background-color: var(--primary-color);
+}
+
+.navbar a{
+	color: var(--font-color2);
+	padding: 1rem;
+}
+
+#brand{
+	color: var(--font-color2);
+}
+
